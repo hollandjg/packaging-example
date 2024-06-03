@@ -12,7 +12,7 @@ dev = ["pytest"]
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
-build-backend = "hatchling.build"
 
-[tool.hatch.version]
-source = "vcs"
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "src/package/__init__.py"
