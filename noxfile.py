@@ -7,5 +7,5 @@ def tests(session: nox.Session) -> None:
     """
     Run our tests.
     """
-    session.install("pytest")
+    session.install(".[dev]")
     session.run("pytest", *session.posargs)
