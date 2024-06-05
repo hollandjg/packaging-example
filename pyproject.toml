@@ -8,8 +8,10 @@ dependencies = [
 dynamic = ["version"]
 
 [project.optional-dependencies]
+test = [
+  "pytest"
+]
 dev = [
-  "pytest",
   "pre-commit"
 ]
 
