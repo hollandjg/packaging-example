@@ -1,5 +1,6 @@
 # contents of tests/test_rescale.py
 import numpy as np
+
 from package.rescale import rescale
 
 
