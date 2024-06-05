@@ -8,7 +8,10 @@ dependencies = [
 dynamic = ["version"]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = [
+  "pytest",
+  "pre-commit"
+]
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
