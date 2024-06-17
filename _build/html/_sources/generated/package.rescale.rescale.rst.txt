@@ -1,0 +1,6 @@
+﻿package.rescale.rescale
+=======================
+
+.. currentmodule:: package.rescale
+
+.. autofunction:: rescale
